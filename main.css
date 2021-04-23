@@ -1,0 +1,15 @@
+.body {
+  padding-top: 60px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #D227E1;
+}
+
+.bg-dark {
+  background-color: #111010!important;
+}
