@@ -150,3 +150,7 @@
   right: 0;
   top: 34px;
 }
+
+.image-blured {
+  opacity: 0.15;
+}
