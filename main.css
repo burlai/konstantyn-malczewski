@@ -1,5 +1,6 @@
 .body {
-  padding-top: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
   font-family: 'Lato', sans-serif;
 }
 
@@ -94,6 +95,7 @@
 
 .navbar-collapse {
   position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -118,4 +120,28 @@
   .site-menu-line {
     display: none;
   }
+}
+
+.site-footer {
+  height: 80px;
+  text-align: right;
+  position: relative;
+}
+
+.site-footer-copyright {
+  display: inline-block;
+  color: #fff;
+  font-weight: 300;
+  position: absolute;
+  right: 8px;
+  top: 24px;
+}
+
+.site-footer-line {
+  opacity: 1;
+  width: 20%;
+  background-color: #D227E1;
+  position: absolute;
+  right: 0;
+  top: 34px;
 }
