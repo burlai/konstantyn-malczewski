@@ -157,4 +157,25 @@
 
 .carousel {
   background-color: #F4F2F4;
+  position: relative;
+}
+
+.carousel .gallery-heading {
+  position: absolute;
+  margin: 0;
+  padding-left: 6px;
+  padding-right: 32px;
+  padding-bottom: 1px;
+  padding-top: 2px;
+  left: 7%;
+  top: 20px;
+  font-weight: 100;
+  font-size: 40px;
+  background-color: #D227E1;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.carousel-indicators .active {
+  background-color: #D227E1;
 }
