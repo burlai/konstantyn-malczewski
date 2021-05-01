@@ -9,6 +9,27 @@
   background-size: cover;
 }
 
+.main {
+  min-height: 1000px;
+  position: relative;
+}
+
+.jumbotron {
+  width: 100%;
+  text-align: center;
+  height: 600px;
+}
+
+.info-card {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    width: 100%;
+  }
+}
+
 .navbar-dark .navbar-nav {
   width: 35%;
   justify-content: flex-end;
