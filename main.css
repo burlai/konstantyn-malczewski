@@ -22,6 +22,22 @@
 
 .info-card {
   background-color: #fff;
+  text-indent: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #fff;
+  border-radius: 0;
+  border-bottom: 1px solid #D227E1;
+}
+
+.nav-pills .nav-link {
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.info-card .nav {
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
