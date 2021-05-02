@@ -9,6 +9,10 @@
   background-size: cover;
 }
 
+p, span, li {
+  color: #111010;
+}
+
 .main {
   min-height: 1000px;
   position: relative;
@@ -23,6 +27,7 @@
 .info-card {
   background-color: #fff;
   text-indent: 20px;
+  position: relative;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -223,4 +228,37 @@
 
 .carousel-indicators .active {
   background-color: #D227E1;
+}
+
+.link {
+  color: #D227E1;
+  text-decoration: none;
+  display: inline-block;
+  text-indent: 0;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #771880;
+}
+
+.link:active {
+  text-decoration: underline;
+  color: #771880;
+}
+
+.contact-heading {
+  position: absolute;
+  margin: 0;
+  padding-left: 0px;
+  padding-right: 32px;
+  padding-bottom: 6px;
+  padding-top: 2px;
+  right: 0;
+  top: 0;
+  font-weight: 100;
+  font-size: 32px;
+  background-color: #D227E1;
+  color: #fff;
+  opacity: 0.7;
 }
