@@ -117,7 +117,7 @@ p, span, li {
 
 @media (max-width: 768px) {
   .site-title {
-    font-size: 24px;
+    font-size: 28px;
     top: 28px;
     margin-right: 16px;
     line-height: 12px;
@@ -142,7 +142,7 @@ p, span, li {
 
 .navbar-collapse {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media (max-width: 768px) {
@@ -152,8 +152,8 @@ p, span, li {
     background-color: #111010;
     padding: 8px;
     padding-left: 16px;
-    width: 130px;
-    height: 162px;
+    width: 136px;
+    height: 210px;
     overflow: auto;
   }
 }
@@ -222,6 +222,34 @@ p, span, li {
   opacity: 0.7;
 }
 
+@media (max-width: 990px) {
+  .carousel .gallery-heading {
+    padding-left: 32px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    left: 0;
+    top: 0;
+    font-weight: 100;
+    font-size: 32px;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel .gallery-heading {
+    padding-left: 32px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    left: 0;
+    top: 0;
+    font-weight: 100;
+    font-size: 24px;
+    opacity: 0.7;
+  }
+}
+
 .carousel .carousel-control-prev, .carousel-control-next {
   width: 44px;
 }
@@ -232,6 +260,26 @@ p, span, li {
 
 .carousel-item .img-fluid {
   height: 38rem;
+}
+
+@media (max-width: 990px) {
+  .carousel-item {
+    height: 26rem;
+  }
+
+  .carousel-item .img-fluid {
+    height: 26rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 19rem;
+  }
+
+  .carousel-item .img-fluid {
+    height: 19rem;
+  }
 }
 
 .carousel-indicators [data-bs-target] {
