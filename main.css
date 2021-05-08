@@ -226,6 +226,18 @@ p, span, li {
   width: 44px;
 }
 
+.carousel-item {
+  height: 38rem;
+}
+
+.carousel-item .img-fluid {
+  height: 38rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #111010;
+}
+
 .carousel-indicators .active {
   background-color: #D227E1;
 }
