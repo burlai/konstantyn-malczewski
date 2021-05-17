@@ -117,15 +117,15 @@ p, span, li {
 
 @media (max-width: 768px) {
   .site-title {
-    font-size: 28px;
-    top: 28px;
+    font-size: 24px;
+    top: 32px;
     margin-right: 16px;
     line-height: 12px;
   }
 
   .site-title .site-title-line {
     color: #D227E1;
-    width: 340px;
+    width: 300px;
   }
 }
 
