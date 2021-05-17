@@ -269,30 +269,30 @@ p, span, li {
 }
 
 .carousel-item {
-  height: 38rem;
+  height: 580px;
 }
 
 .carousel-item .img-fluid {
-  height: 38rem;
+  height: 580px;
 }
 
 @media (max-width: 990px) {
   .carousel-item {
-    height: 26rem;
+    height: 460px;
   }
 
   .carousel-item .img-fluid {
-    height: 26rem;
+    height: 460px;
   }
 }
 
 @media (max-width: 768px) {
   .carousel-item {
-    height: 15rem;
+    height: 240px;
   }
 
   .carousel-item .img-fluid {
-    height: 15rem;
+    height: 240px;
   }
 }
 
