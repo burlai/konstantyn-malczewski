@@ -17,14 +17,16 @@ p, span, li {
 .text {
   font-family: 'Bitter', serif;
   font-weight: 500;
+  line-height: 22px;
 }
 
 .text-small {
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 .text-big {
-  font-size: 1.1rem;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .main {
@@ -357,4 +359,15 @@ p, span, li {
 
 .button-link:hover, .button-link:focus {
   color: #D227E1;
+}
+
+.text-list {
+  padding: 0;
+  margin-left: 30px;
+}
+
+.text-list li {
+  padding: 0;
+  margin-left: 10px;
+  text-indent: 0;
 }
