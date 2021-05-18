@@ -379,3 +379,15 @@ p, span, li {
   margin-left: 10px;
   text-indent: 0;
 }
+
+.tab-pane {
+  overflow: hidden;
+}
+
+.no-indent {
+  text-indent: 0;
+}
+
+.image-container {
+  text-indent: 0;
+}
