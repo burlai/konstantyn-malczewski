@@ -196,8 +196,9 @@ p, span, li {
   color: #fff;
   font-weight: 300;
   position: absolute;
-  right: 8px;
-  top: 24px;
+  right: 6px;
+  top: 27px;
+  font-size: 14px;
 }
 
 .site-footer-line {
@@ -390,4 +391,12 @@ p, span, li {
 
 .image-container {
   text-indent: 0;
+}
+
+.counter-container {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 8px;
+  bottom: 75px;
 }
